@@ -1,0 +1,71 @@
+.nav_height {
+  height: 50px;
+}
+
+.marquee-container {
+  height: 100%;
+}
+
+.overlay::before,
+.overlay::after {
+  background: transparent !important;
+}
+
+.banner_text_container {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.partners_logo {
+  padding: 0px 20px;
+  border-right: 1px solid rgba(0, 0, 0, 0.24);
+}
+
+.partners_logo:last-child {
+  border: none;
+}
+
+.footer_height {
+  height: 67px;
+  margin-top: 10px;
+}
+
+.input_spacing {
+  margin: 10px 0px;
+  border: 1px solid lightgray;
+  padding: 10px;
+  outline: none;
+  width: 90%;
+  border-radius: 5px;
+}
+
+@media screen and (min-width: 640px) {
+  .our_partner_container {
+    justify-content: space-evenly;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .our_partner_container {
+    overflow-x: auto;
+    overflow-y: hidden;
+    h1 {
+      min-width: 130px;
+    }
+  }
+  .MuiBox-root {
+    width: 80% !important;
+  }
+  
+}
+
+@media screen and (max-width: 320px) {
+.inner_nav {
+    display: none !important;
+  }
+}
+
